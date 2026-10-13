@@ -1,0 +1,22 @@
+# kept on the Mac only (textbooks, papers, exams, full raw data)
+_local_only/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# regenerated outputs
+results_reproduced/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+report/_build/
