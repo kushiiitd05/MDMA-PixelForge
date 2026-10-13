@@ -1,0 +1,172 @@
+down,up,scale,psnr,ssim,n,source
+DCT band crop (ideal low-pass),DCT zero-pad,2,31.739087942804886,0.8681548517966751,4,B9 T2
+DCT band crop (ideal low-pass),DCT zero-pad,4,27.7310585665695,0.7031941772802055,4,B9 T2
+DCT band crop (ideal low-pass),DCT zero-pad,8,24.962131401575455,0.5775136851078417,4,B9 T2
+DCT band crop (ideal low-pass),IBP-20 (matched D),2,30.66805606275619,0.8437471424899676,4,B9 T2
+DCT band crop (ideal low-pass),IBP-20 (matched D),4,27.172352682500854,0.6800983452321965,4,B9 T2
+DCT band crop (ideal low-pass),IBP-20 (matched D),8,24.624612454435763,0.5631893685550948,4,B9 T2
+DCT band crop (ideal low-pass),Keys bicubic,2,30.839636512587816,0.8453266737673296,4,B9 T2
+DCT band crop (ideal low-pass),Keys bicubic,4,27.245084765914275,0.6838139506347676,4,B9 T2
+DCT band crop (ideal low-pass),Keys bicubic,8,24.65249685483984,0.5695871722265671,4,B9 T2
+DCT band crop (ideal low-pass),nearest,2,28.74533937291283,0.8056379415279491,4,B9 T2
+DCT band crop (ideal low-pass),nearest,4,25.61625271248326,0.6295140757244255,4,B9 T2
+DCT band crop (ideal low-pass),nearest,8,23.497291021446415,0.5161668750389258,4,B9 T2
+DCT band crop (ideal low-pass),quintic B-spline,2,31.42585718041641,0.8613133309570864,4,B9 T2
+DCT band crop (ideal low-pass),quintic B-spline,4,27.58003070764049,0.6974851327852268,4,B9 T2
+DCT band crop (ideal low-pass),quintic B-spline,8,24.879289183443586,0.5760879897255611,4,B9 T2
+FFT band crop (periodic),FFT zero-pad,2,31.51203834152733,0.8686195526186026,4,B9 T2
+FFT band crop (periodic),FFT zero-pad,4,27.651442066885885,0.7038150403365643,4,B9 T2
+FFT band crop (periodic),FFT zero-pad,8,24.91184696589469,0.5777446088005991,4,B9 T2
+FFT band crop (periodic),IBP-20 (matched D),2,30.672757068946268,0.846159682077608,4,B9 T2
+FFT band crop (periodic),IBP-20 (matched D),4,27.16670898327183,0.6830687170792373,4,B9 T2
+FFT band crop (periodic),IBP-20 (matched D),8,24.62241273444735,0.565210089740136,4,B9 T2
+FFT band crop (periodic),Keys bicubic,2,30.793987582033104,0.8462501735134063,4,B9 T2
+FFT band crop (periodic),Keys bicubic,4,27.224899501391178,0.6849510576161448,4,B9 T2
+FFT band crop (periodic),Keys bicubic,8,24.641270243535637,0.5701982967306514,4,B9 T2
+FFT band crop (periodic),nearest,2,28.75536984997153,0.8071292018908971,4,B9 T2
+FFT band crop (periodic),nearest,4,25.617176126080516,0.6311850349858588,4,B9 T2
+FFT band crop (periodic),nearest,8,23.49805835333062,0.5174033376628577,4,B9 T2
+FFT band crop (periodic),quintic B-spline,2,31.35316412604923,0.8623473130571258,4,B9 T2
+FFT band crop (periodic),quintic B-spline,4,27.54878683910333,0.6987040532834683,4,B9 T2
+FFT band crop (periodic),quintic B-spline,8,24.862184140025033,0.5766564108585901,4,B9 T2
+Gaussian σ=0.5,cubic B-spline,2,30.839807224661513,0.8482361010672386,4,B1
+Gaussian σ=0.5,cubic B-spline,4,27.158934800408403,0.6888009275751021,4,B1
+Gaussian σ=0.5,cubic B-spline,8,24.58603011286723,0.5749038111168328,4,B1
+Gaussian σ=0.7,cubic B-spline,2,30.553402936542266,0.8372179232919776,4,B1
+Gaussian σ=0.7,cubic B-spline,4,26.87611897709798,0.6752794669707556,4,B1
+Gaussian σ=0.7,cubic B-spline,8,24.36777268615839,0.5679641859812006,4,B1
+"Gaussian σ=1 (P1, frozen)",IBP-20 (matched D),2,31.318748477975273,0.868378855806969,4,B8
+"Gaussian σ=1 (P1, frozen)",IBP-20 (matched D),4,27.54001310284083,0.7073269999592241,4,B8
+"Gaussian σ=1 (P1, frozen)",IBP-20 (matched D),8,24.871003207707382,0.5817405125666835,4,B8
+"Gaussian σ=1 (P1, frozen)",Keys bicubic,2,29.374517093910605,0.7936326995082015,4,B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",Keys bicubic,4,25.951117830690198,0.6362071768585846,4,B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",Keys bicubic,8,23.676795286124623,0.5491530350120266,4,B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",Lanczos-3,2,29.703275963648615,0.8052845372301215,4,B9 T4
+"Gaussian σ=1 (P1, frozen)",Lanczos-3,4,26.14627034733425,0.6433573482899473,4,B9 T4
+"Gaussian σ=1 (P1, frozen)",Lanczos-3,8,23.81391866650472,0.5521883073222023,4,B9 T4
+"Gaussian σ=1 (P1, frozen)",bilinear,2,28.638851934101105,0.7647418938170794,4,B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",bilinear,4,25.526942128132756,0.6204497265305643,4,B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",bilinear,8,23.385622076387058,0.5424797075491066,4,B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",cubic B-spline,2,29.62197623389791,0.8024548714203137,4,B1+B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",cubic B-spline,4,26.095422694309324,0.6418187047659467,4,B1+B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",cubic B-spline,8,23.778845353553386,0.5516286894405212,4,B1+B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",nearest,2,28.645891546697435,0.7833660564157402,4,B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",nearest,4,25.42382176986157,0.615209423021019,4,B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",nearest,8,23.31826226769121,0.5252891850512196,4,B2+B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",quintic B-spline,2,29.738675766541274,0.8068285673288533,4,B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",quintic B-spline,4,26.160947073568583,0.6445901014372636,4,B8+B9 T4
+"Gaussian σ=1 (P1, frozen)",quintic B-spline,8,23.825532091916706,0.5528276520109965,4,B8+B9 T4
+"Gaussian σ=1, corner lattice",Keys bicubic,2,29.431747250809174,0.7949746246117877,4,B2
+"Gaussian σ=1, corner lattice",Keys bicubic,4,25.937938697716298,0.6356865286352099,4,B2
+"Gaussian σ=1, corner lattice",Keys bicubic,8,23.656267119430623,0.5484848951328705,4,B2
+"Gaussian σ=1, corner lattice",cubic B-spline,2,29.652559517552863,0.8031093186947601,4,B2
+"Gaussian σ=1, corner lattice",cubic B-spline,4,26.08374067324689,0.6414759400525327,4,B2
+"Gaussian σ=1, corner lattice",cubic B-spline,8,23.761295632870862,0.5513028599745307,4,B2
+"Gaussian σ=1, corner lattice",nearest,2,27.69897796797277,0.7534195677883475,4,B2
+"Gaussian σ=1, corner lattice",nearest,4,25.23194179477216,0.6090922472936966,4,B2
+"Gaussian σ=1, corner lattice",nearest,8,23.23356393351616,0.5221109759057077,4,B2
+Gaussian σ=1.4,cubic B-spline,2,28.295341603454094,0.7473128081798255,4,B1
+Gaussian σ=1.4,cubic B-spline,4,25.101998775363143,0.6013261803979881,4,B1
+Gaussian σ=1.4,cubic B-spline,8,23.034923344465575,0.5335620967894883,4,B1
+Gaussian σ_eff direct,Keys bicubic,2,29.374517093910605,0.7936326995082018,4,B2
+Gaussian σ_eff direct,Keys bicubic,4,25.951442930810927,0.6362173911013409,4,B2
+Gaussian σ_eff direct,Keys bicubic,8,23.676618545239535,0.5491507613755953,4,B2
+Gaussian σ_eff direct,cubic B-spline,2,29.62197623389791,0.802454871420314,4,B2
+Gaussian σ_eff direct,cubic B-spline,4,26.095768497194882,0.6418300185803443,4,B2
+Gaussian σ_eff direct,cubic B-spline,8,23.778669194846003,0.5516278210081706,4,B2
+Gaussian σ_eff direct,nearest,2,28.645891546697435,0.7833660564157403,4,B2
+Gaussian σ_eff direct,nearest,4,25.42260673201512,0.6150252713894677,4,B2
+Gaussian σ_eff direct,nearest,8,23.31749775452727,0.5251979362217983,4,B2
+Lanczos-3 direct,IBP-20 (matched D),2,31.281354747224853,0.8674416240943323,4,B8
+Lanczos-3 direct,IBP-20 (matched D),4,27.529368141005875,0.7068149042997408,4,B8
+Lanczos-3 direct,IBP-20 (matched D),8,24.869498479071638,0.5810758789023318,4,B8
+Lanczos-3 direct,Keys bicubic,2,30.838440679703467,0.8470232861944809,4,B8+B9 T4
+Lanczos-3 direct,Keys bicubic,4,27.236406074277276,0.6880441436548532,4,B8+B9 T4
+Lanczos-3 direct,Keys bicubic,8,24.64568015159189,0.5733490855595608,4,B8+B9 T4
+Lanczos-3 direct,Lanczos-3,2,31.177858665674123,0.8573300865273715,4,B9 T4
+Lanczos-3 direct,Lanczos-3,4,27.430511094366892,0.695651739795745,4,B9 T4
+Lanczos-3 direct,Lanczos-3,8,24.780837711551953,0.5768499836072365,4,B9 T4
+Lanczos-3 direct,bilinear,2,30.05410203267988,0.8187638077198196,4,B8+B9 T4
+Lanczos-3 direct,bilinear,4,26.753133491566977,0.6687024633931433,4,B8+B9 T4
+Lanczos-3 direct,bilinear,8,24.315682308623185,0.5643219471067393,4,B8+B9 T4
+Lanczos-3 direct,cubic B-spline,2,31.162090391331006,0.8559614957181858,4,B8+B9 T4
+Lanczos-3 direct,cubic B-spline,4,27.422055399429933,0.6949746252293527,4,B8+B9 T4
+Lanczos-3 direct,cubic B-spline,8,24.773206582838995,0.5766973134005438,4,B8+B9 T4
+Lanczos-3 direct,nearest,2,29.08333081698115,0.8210924275343573,4,B8+B9 T4
+Lanczos-3 direct,nearest,4,25.836823754621967,0.6470284379049831,4,B8+B9 T4
+Lanczos-3 direct,nearest,8,23.669232030021064,0.5301208254600493,4,B8+B9 T4
+Lanczos-3 direct,quintic B-spline,2,31.301661416481963,0.859957428679566,4,B8+B9 T4
+Lanczos-3 direct,quintic B-spline,4,27.498717419274364,0.6978696292834663,4,B8+B9 T4
+Lanczos-3 direct,quintic B-spline,8,24.824058657305347,0.5776844416887955,4,B8+B9 T4
+Lanczos-3 per ×2 stage,IBP-20 (matched D),2,31.281354747224853,0.8674416240943323,4,B8
+Lanczos-3 per ×2 stage,IBP-20 (matched D),4,27.528242624518217,0.7067135193598003,4,B8
+Lanczos-3 per ×2 stage,IBP-20 (matched D),8,24.8688889279481,0.581016085617829,4,B8
+Lanczos-3 per ×2 stage,Keys bicubic,2,30.838440679703467,0.8470232861944809,4,B8
+Lanczos-3 per ×2 stage,Keys bicubic,4,27.249170660653192,0.688634129645572,4,B8
+Lanczos-3 per ×2 stage,Keys bicubic,8,24.656691906929474,0.5736578244900321,4,B8
+Lanczos-3 per ×2 stage,bilinear,2,30.05410203267988,0.8187638077198196,4,B8
+Lanczos-3 per ×2 stage,bilinear,4,26.76832145243582,0.6693352161050593,4,B8
+Lanczos-3 per ×2 stage,bilinear,8,24.328320089716215,0.5646455891739238,4,B8
+Lanczos-3 per ×2 stage,cubic B-spline,2,31.162090391331006,0.8559614957181858,4,B8
+Lanczos-3 per ×2 stage,cubic B-spline,4,27.43364543223172,0.6955545003236145,4,B8
+Lanczos-3 per ×2 stage,cubic B-spline,8,24.783208247028547,0.5770000214556208,4,B8
+Lanczos-3 per ×2 stage,nearest,2,29.08333081698115,0.8210924275343573,4,B8
+Lanczos-3 per ×2 stage,nearest,4,25.83039711832459,0.6471220741669953,4,B8
+Lanczos-3 per ×2 stage,nearest,8,23.66399832499537,0.5299699207230668,4,B8
+Lanczos-3 per ×2 stage,quintic B-spline,2,31.301661416481963,0.859957428679566,4,B8
+Lanczos-3 per ×2 stage,quintic B-spline,4,27.508907448509408,0.6984188798070807,4,B8
+Lanczos-3 per ×2 stage,quintic B-spline,8,24.832774792848923,0.5779586203000491,4,B8
+box / area,Keys bicubic,2,30.674171177429848,0.8450816193011121,4,B2
+box / area,Keys bicubic,4,27.06128905638935,0.6878332738757068,4,B2
+box / area,Keys bicubic,8,24.523780177461084,0.5753499470195008,4,B2
+box / area,cubic B-spline,2,30.87294040328671,0.8496979252223104,4,B1+B2
+box / area,cubic B-spline,4,27.194382448022374,0.6908007822720703,4,B1+B2
+box / area,cubic B-spline,8,24.613349156281195,0.5759359347982638,4,B1+B2
+box / area,nearest,2,29.374576392410923,0.834092641237847,4,B2
+box / area,nearest,4,26.024811407970205,0.6652726784936441,4,B2
+box / area,nearest,8,23.80880935205018,0.5463322305288031,4,B2
+co-designed for the upscaler (8-bit LR),Keys bicubic,2,31.312720664231563,0.8683267716383978,4,B9 T4
+co-designed for the upscaler (8-bit LR),Keys bicubic,4,27.549367431987797,0.7095547427850128,4,B9 T4
+co-designed for the upscaler (8-bit LR),Keys bicubic,8,24.88417642947446,0.583743722157265,4,B9 T4
+co-designed for the upscaler (8-bit LR),Lanczos-3,2,31.528066270867107,0.8701311001098143,4,B9 T4
+co-designed for the upscaler (8-bit LR),Lanczos-3,4,27.657478527714126,0.708489674022412,4,B9 T4
+co-designed for the upscaler (8-bit LR),Lanczos-3,8,24.951954744479877,0.5821183229215102,4,B9 T4
+co-designed for the upscaler (8-bit LR),bilinear,2,31.312869981109973,0.8684023914958527,4,B9 T4
+co-designed for the upscaler (8-bit LR),bilinear,4,27.457249907104497,0.7085719310391936,4,B9 T4
+co-designed for the upscaler (8-bit LR),bilinear,8,24.809218753815912,0.5823715800582678,4,B9 T4
+co-designed for the upscaler (8-bit LR),cubic B-spline,2,31.547995731142684,0.8703861526423835,4,B9 T4
+co-designed for the upscaler (8-bit LR),cubic B-spline,4,27.663457419358085,0.7088186654139571,4,B9 T4
+co-designed for the upscaler (8-bit LR),cubic B-spline,8,24.95385753776262,0.5823179279153943,4,B9 T4
+co-designed for the upscaler (8-bit LR),nearest,2,29.366421916257234,0.8336386340611799,4,B9 T4
+co-designed for the upscaler (8-bit LR),nearest,4,26.02158844999123,0.6649462395802678,4,B9 T4
+co-designed for the upscaler (8-bit LR),nearest,8,23.80698516784654,0.5461824307295838,4,B9 T4
+co-designed for the upscaler (8-bit LR),quintic B-spline,2,31.624858963584416,0.8702180912714133,4,B9 T4
+co-designed for the upscaler (8-bit LR),quintic B-spline,4,27.698882337227005,0.7073508231309118,4,B9 T4
+co-designed for the upscaler (8-bit LR),quintic B-spline,8,24.969346075567714,0.5807453608882398,4,B9 T4
+co-designed for the upscaler (float LR),Keys bicubic,2,31.320512539611187,0.8686263989467686,4,B9 T4
+co-designed for the upscaler (float LR),Keys bicubic,4,27.55278596385937,0.70973097486226,4,B9 T4
+co-designed for the upscaler (float LR),Keys bicubic,8,24.886014362583577,0.5838127140983516,4,B9 T4
+co-designed for the upscaler (float LR),Lanczos-3,2,31.53807129241889,0.8704983472534048,4,B9 T4
+co-designed for the upscaler (float LR),Lanczos-3,4,27.66156669964063,0.7086771354760365,4,B9 T4
+co-designed for the upscaler (float LR),Lanczos-3,8,24.95407780737414,0.5821934158150855,4,B9 T4
+co-designed for the upscaler (float LR),bilinear,2,31.320512539611187,0.8686263989467689,4,B9 T4
+co-designed for the upscaler (float LR),bilinear,4,27.470360706150046,0.7087306113027778,4,B9 T4
+co-designed for the upscaler (float LR),bilinear,8,24.814014112899713,0.5824271152529236,4,B9 T4
+co-designed for the upscaler (float LR),cubic B-spline,2,31.557560294209498,0.8707377598179793,4,B9 T4
+co-designed for the upscaler (float LR),cubic B-spline,4,27.667400329836497,0.7089986243519438,4,B9 T4
+co-designed for the upscaler (float LR),cubic B-spline,8,24.95600825840571,0.5823706562657773,4,B9 T4
+co-designed for the upscaler (float LR),nearest,2,29.374576392410923,0.8340926412378573,4,B9 T4
+co-designed for the upscaler (float LR),nearest,4,26.024811407970205,0.6652726784936438,4,B9 T4
+co-designed for the upscaler (float LR),nearest,8,23.80880935205018,0.5463322305288038,4,B9 T4
+co-designed for the upscaler (float LR),quintic B-spline,2,31.635614622142892,0.8706084934531833,4,B9 T4
+co-designed for the upscaler (float LR),quintic B-spline,4,27.703238414136443,0.7075675854593309,4,B9 T4
+co-designed for the upscaler (float LR),quintic B-spline,8,24.97172710831862,0.580822676374898,4,B9 T4
+no smoothing (decimation),Keys bicubic,2,29.785931127442044,0.8295063745868843,4,B2
+no smoothing (decimation),Keys bicubic,4,25.687378204666537,0.6696131283017281,4,B2
+no smoothing (decimation),Keys bicubic,8,22.940672741846807,0.5638981074293574,4,B2
+no smoothing (decimation),cubic B-spline,2,29.583249380218053,0.8229509269191415,4,B2
+no smoothing (decimation),cubic B-spline,4,25.474464471740195,0.6599473251941133,4,B2
+no smoothing (decimation),cubic B-spline,8,22.714223159560202,0.5560228618435994,4,B2
+no smoothing (decimation),nearest,2,26.58881934237802,0.7430580485319007,4,B2
+no smoothing (decimation),nearest,4,23.843001501332456,0.604252481205934,4,B2
+no smoothing (decimation),nearest,8,21.50733353192334,0.5040450488411813,4,B2

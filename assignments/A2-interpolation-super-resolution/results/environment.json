@@ -1,0 +1,16 @@
+{
+  "python": "3.11.13",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "numpy": "2.4.6",
+  "scipy": "1.15.3",
+  "scikit-image": "0.26.0",
+  "opencv": "5.0.0",
+  "threads": 1,
+  "conda_env": "eda311",
+  "hashes": {
+    "4.2.03.tiff": "3f590b52279fb59b",
+    "7.1.02.tiff": "0cfb76e14c42fa22",
+    "7.1.03.tiff": "77c09b46652b93d0",
+    "4.2.06.tiff": "aa00ff3defadcd99"
+  }
+}

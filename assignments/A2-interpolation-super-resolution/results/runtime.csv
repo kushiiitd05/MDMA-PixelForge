@@ -1,0 +1,40 @@
+scale,track,method,label,ms_median,ms_iqr
+2,"SciPy B-spline (orders 0-5, same code path)",nearest,Nearest (0),3.753312397748232,0.22972881561145186
+2,"SciPy B-spline (orders 0-5, same code path)",bilinear,Bilinear (1),5.520125036127865,0.12621900532394648
+2,NumPy separable kernel (reference),quad_local,Quadratic local (2),2.243166556581855,0.28295826632529497
+2,"SciPy B-spline (orders 0-5, same code path)",spline2,Quadratic B-spline (2),9.504083485808223,0.43508331873454154
+2,NumPy separable kernel (reference),bicubic_a05,Bicubic Keys a=-0.5 (3),2.412228495813906,0.14533355715684593
+2,"SciPy B-spline (orders 0-5, same code path)",spline3,Cubic B-spline (3),14.117978978902102,0.20602077711373568
+2,"SciPy B-spline (orders 0-5, same code path)",spline4,Quartic B-spline (4),21.105604013428092,0.20573983783833683
+2,"SciPy B-spline (orders 0-5, same code path)",spline5,Quintic B-spline (5),27.36179146450013,0.9166456584353
+2,NumPy separable kernel (reference),lanczos3,Lanczos-3 (sinc ref.),3.173833538312465,0.15148898819461465
+2,OpenCV optimised,cv2_0,Nearest (0),0.13879156904295087,0.009907031198963523
+2,OpenCV optimised,cv2_1,Bilinear (1),0.07499998901039362,0.0050943344831466675
+2,OpenCV optimised,cv2_2,Bicubic Keys a=-0.75 (3),0.22629147861152887,0.018874823581427336
+2,OpenCV optimised,cv2_4,Lanczos-4 (sinc ref.),0.41029148269444704,0.03271934110671282
+4,"SciPy B-spline (orders 0-5, same code path)",nearest,Nearest (0),3.609854553360492,0.03866752376779914
+4,"SciPy B-spline (orders 0-5, same code path)",bilinear,Bilinear (1),5.558042030315846,0.22052088752388954
+4,NumPy separable kernel (reference),quad_local,Quadratic local (2),1.6555625479668379,0.1167914888355881
+4,"SciPy B-spline (orders 0-5, same code path)",spline2,Quadratic B-spline (2),8.56200058478862,0.07345751510001719
+4,NumPy separable kernel (reference),bicubic_a05,Bicubic Keys a=-0.5 (3),1.6650835168547928,0.0865831389091909
+4,"SciPy B-spline (orders 0-5, same code path)",spline3,Cubic B-spline (3),13.442792056594044,0.12439597048796713
+4,"SciPy B-spline (orders 0-5, same code path)",spline4,Quartic B-spline (4),19.967416999861598,0.35737475263886154
+4,"SciPy B-spline (orders 0-5, same code path)",spline5,Quintic B-spline (5),26.32127096876502,0.6797192618250847
+4,NumPy separable kernel (reference),lanczos3,Lanczos-3 (sinc ref.),2.6026039849966764,0.1764580374583602
+4,OpenCV optimised,cv2_0,Nearest (0),0.09383296128362417,0.00024994369596242905
+4,OpenCV optimised,cv2_1,Bilinear (1),0.06874999962747097,0.0006775662768632174
+4,OpenCV optimised,cv2_2,Bicubic Keys a=-0.75 (3),0.12041698209941387,0.00046833883970975876
+4,OpenCV optimised,cv2_4,Lanczos-4 (sinc ref.),0.24558347649872303,0.004489498678594828
+8,"SciPy B-spline (orders 0-5, same code path)",nearest,Nearest (0),3.6762499948963523,0.1739892759360373
+8,"SciPy B-spline (orders 0-5, same code path)",bilinear,Bilinear (1),5.61016658321023,0.12102117761969566
+8,NumPy separable kernel (reference),quad_local,Quadratic local (2),1.7136454698629677,0.40020851884037256
+8,"SciPy B-spline (orders 0-5, same code path)",spline2,Quadratic B-spline (2),9.140166570432484,0.2387292915955186
+8,NumPy separable kernel (reference),bicubic_a05,Bicubic Keys a=-0.5 (3),1.640166505239904,0.11165591422468424
+8,"SciPy B-spline (orders 0-5, same code path)",spline3,Cubic B-spline (3),13.53358308551833,0.06954200216569006
+8,"SciPy B-spline (orders 0-5, same code path)",spline4,Quartic B-spline (4),20.174479519482702,0.07115621701814234
+8,"SciPy B-spline (orders 0-5, same code path)",spline5,Quintic B-spline (5),27.0121245412156,0.3614907618612051
+8,NumPy separable kernel (reference),lanczos3,Lanczos-3 (sinc ref.),2.2169164731167257,0.08281262125819921
+8,OpenCV optimised,cv2_0,Nearest (0),0.08849997539073229,0.00030218507163226604
+8,OpenCV optimised,cv2_1,Bilinear (1),0.04904193338006735,0.0004169996827840805
+8,OpenCV optimised,cv2_2,Bicubic Keys a=-0.75 (3),0.08462497498840094,0.000177271431311965
+8,OpenCV optimised,cv2_4,Lanczos-4 (sinc ref.),0.19197899382561445,0.02293771831318736

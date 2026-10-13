@@ -1,0 +1,297 @@
+{
+ "lambda_experiment_psnr": {
+  "0.0": {
+   "val": 24.265,
+   "fresh": 27.204,
+   "assignment": 25.307,
+   "div2k_eval20": 22.338
+  },
+  "0.1": {
+   "val": 24.534,
+   "fresh": 27.317,
+   "assignment": 25.609,
+   "div2k_eval20": 22.571
+  },
+  "1.0": {
+   "val": 24.558,
+   "fresh": 27.332,
+   "assignment": 25.616,
+   "div2k_eval20": 22.597
+  }
+ },
+ "srd": {
+  "A": {
+   "params": 969760,
+   "val_start": 24.69396943472017,
+   "val_after_fit": null,
+   "best_val": 24.69396943472017
+  },
+  "B": {
+   "params": 977632,
+   "val_start": 24.69396943472017,
+   "val_after_fit": 24.688039351038224,
+   "best_val": 24.688039351038224
+  },
+  "C": {
+   "params": 979179,
+   "val_start": 24.69396943472017,
+   "val_after_fit": 24.68968910205041,
+   "best_val": 24.68968910205041
+  }
+ },
+ "b10_bound_holds": "108/108",
+ "b10_best_linear_consistent_8x": {
+  "bicubic_a05": 24.886,
+  "spline3": 24.956,
+  "spline5": 24.972
+ },
+ "previous_core_8x": [
+  {
+   "seed": 7,
+   "split": "assignment",
+   "psnr": 25.7147,
+   "ssim": 0.6029
+  },
+  {
+   "seed": 7,
+   "split": "div2k_eval20",
+   "psnr": 22.8061,
+   "ssim": 0.5913
+  },
+  {
+   "seed": 7,
+   "split": "fresh",
+   "psnr": 27.4174,
+   "ssim": 0.616
+  },
+  {
+   "seed": 7,
+   "split": "val",
+   "psnr": 24.7511,
+   "ssim": 0.5932
+  },
+  {
+   "seed": 20260915,
+   "split": "assignment",
+   "psnr": 25.7017,
+   "ssim": 0.6027
+  },
+  {
+   "seed": 20260915,
+   "split": "div2k_eval20",
+   "psnr": 22.7764,
+   "ssim": 0.5891
+  },
+  {
+   "seed": 20260915,
+   "split": "fresh",
+   "psnr": 27.3945,
+   "ssim": 0.6151
+  },
+  {
+   "seed": 20260915,
+   "split": "val",
+   "psnr": 24.694,
+   "ssim": 0.591
+  }
+ ],
+ "m1_rows": 1248,
+ "m2g_sampling_val": {
+  "plain w96 d12 16k +DIV2K | group-balanced | seed 20260915": 24.626,
+  "plain w96 d12 16k +DIV2K | group-balanced | seed 7": 24.62,
+  "plain w96 d12 16k +DIV2K | uniform | seed 20260915": 24.524,
+  "plain w96 d12 16k +DIV2K | uniform | seed 7": 24.564
+ },
+ "m2e_data_val": {
+  "plain w96 d12 it16k +DIV2K": 24.524,
+  "plain w96 d12 it64k +DIV2K": 24.561,
+  "res w96 b8 it64k +DIV2K": 24.552
+ },
+ "pool_decision": {
+  "orig_per_seed": {
+   "7": [
+    24.751098273856584,
+    0.5931956555809138
+   ],
+   "20260915": [
+    24.69396943472017,
+    0.5909933624996924
+   ]
+  },
+  "bsd_per_seed": {
+   "7": [
+    24.78882806316669,
+    0.5934301722094258
+   ],
+   "20260915": [
+    24.73423258293374,
+    0.5926404949012772
+   ]
+  },
+  "orig_mean_psnr": 24.72253385428838,
+  "orig_mean_ssim": 0.5920945090403031,
+  "bsd_mean_psnr": 24.761530323050216,
+  "bsd_mean_ssim": 0.5930353335553515,
+  "delta_psnr": 0.03899646876183738,
+  "delta_ssim": 0.0009408245150483996,
+  "chosen_pool": "bsd"
+ },
+ "final_scale_runs": {
+  "x2_bsd_s20260915": {
+   "tag": "fs_x2_bsd_s20260915",
+   "scale": 2,
+   "pool": "bsd",
+   "seed": 20260915,
+   "arch": "DirectLR(2, 96, 12)",
+   "params": 917860,
+   "iters": 64000,
+   "batch": 16,
+   "hr_crop": 128,
+   "lr": 0.0002,
+   "schedule": "cosine",
+   "loss": "MSE(raw)",
+   "sampler": "group-balanced",
+   "n_pool_images": 345,
+   "n_units": 178,
+   "status": "done",
+   "best_psnr_it": 47500,
+   "best_psnr_val_ssim": 0.9127276704463716,
+   "best_ssim_it": 59500,
+   "best_ssim_val_psnr": 33.45740555808935,
+   "best_val_psnr": 33.56742397577939,
+   "best_val_ssim": 0.9127994077087297,
+   "train_s": 2687.965697868727,
+   "last_it": 64000
+  },
+  "x2_bsd_s7": {
+   "tag": "fs_x2_bsd_s7",
+   "scale": 2,
+   "pool": "bsd",
+   "seed": 7,
+   "arch": "DirectLR(2, 96, 12)",
+   "params": 917860,
+   "iters": 64000,
+   "batch": 16,
+   "hr_crop": 128,
+   "lr": 0.0002,
+   "schedule": "cosine",
+   "loss": "MSE(raw)",
+   "sampler": "group-balanced",
+   "n_pool_images": 345,
+   "n_units": 178,
+   "status": "done",
+   "best_psnr_it": 36000,
+   "best_psnr_val_ssim": 0.9119127551520542,
+   "best_ssim_it": 51000,
+   "best_ssim_val_psnr": 33.357834925483075,
+   "best_val_psnr": 33.45692857885355,
+   "best_val_ssim": 0.9125115189778097,
+   "train_s": 2685.4323681369424,
+   "last_it": 64000
+  },
+  "x4_bsd_s20260915": {
+   "tag": "fs_x4_bsd_s20260915",
+   "scale": 4,
+   "pool": "bsd",
+   "seed": 20260915,
+   "arch": "DirectLR(4, 96, 12)",
+   "params": 928240,
+   "iters": 64000,
+   "batch": 16,
+   "hr_crop": 128,
+   "lr": 0.0002,
+   "schedule": "cosine",
+   "loss": "MSE(raw)",
+   "sampler": "group-balanced",
+   "n_pool_images": 345,
+   "n_units": 178,
+   "status": "done",
+   "best_psnr_it": 47500,
+   "best_psnr_val_ssim": 0.7600880546787809,
+   "best_ssim_it": 56500,
+   "best_ssim_val_psnr": 28.37805000104076,
+   "best_val_psnr": 28.41329600760563,
+   "best_val_ssim": 0.7602662487729802,
+   "train_s": 1364.2325747655705,
+   "last_it": 64000
+  },
+  "x4_bsd_s7": {
+   "tag": "fs_x4_bsd_s7",
+   "scale": 4,
+   "pool": "bsd",
+   "seed": 7,
+   "arch": "DirectLR(4, 96, 12)",
+   "params": 928240,
+   "iters": 64000,
+   "batch": 16,
+   "hr_crop": 128,
+   "lr": 0.0002,
+   "schedule": "cosine",
+   "loss": "MSE(raw)",
+   "sampler": "group-balanced",
+   "n_pool_images": 345,
+   "n_units": 178,
+   "status": "done",
+   "best_psnr_it": 41000,
+   "best_psnr_val_ssim": 0.7583667379264198,
+   "best_ssim_it": 50000,
+   "best_ssim_val_psnr": 28.301817677962116,
+   "best_val_psnr": 28.35231696627634,
+   "best_val_ssim": 0.7587981660021086,
+   "train_s": 1361.6702818619087,
+   "last_it": 64000
+  },
+  "x8_bsd_s20260915": {
+   "tag": "fs_x8_bsd_s20260915",
+   "scale": 8,
+   "pool": "bsd",
+   "seed": 20260915,
+   "arch": "DirectLR(8, 96, 12)",
+   "params": 969760,
+   "iters": 64000,
+   "batch": 16,
+   "hr_crop": 128,
+   "lr": 0.0002,
+   "schedule": "cosine",
+   "loss": "MSE(raw)",
+   "sampler": "group-balanced",
+   "n_pool_images": 345,
+   "n_units": 178,
+   "status": "done",
+   "best_psnr_it": 43500,
+   "best_psnr_val_ssim": 0.5926404949012772,
+   "best_ssim_it": 56000,
+   "best_ssim_val_psnr": 24.71293147834392,
+   "best_val_psnr": 24.73423258293374,
+   "best_val_ssim": 0.5928861562339769,
+   "train_s": 1136.4181352080777,
+   "last_it": 64000
+  },
+  "x8_bsd_s7": {
+   "tag": "fs_x8_bsd_s7",
+   "scale": 8,
+   "pool": "bsd",
+   "seed": 7,
+   "arch": "DirectLR(8, 96, 12)",
+   "params": 969760,
+   "iters": 64000,
+   "batch": 16,
+   "hr_crop": 128,
+   "lr": 0.0002,
+   "schedule": "cosine",
+   "loss": "MSE(raw)",
+   "sampler": "group-balanced",
+   "n_pool_images": 345,
+   "n_units": 178,
+   "status": "done",
+   "best_psnr_it": 44000,
+   "best_psnr_val_ssim": 0.5934301722094258,
+   "best_ssim_it": 48500,
+   "best_ssim_val_psnr": 24.781921461289077,
+   "best_val_psnr": 24.78882806316669,
+   "best_val_ssim": 0.5934689595877763,
+   "train_s": 1190.0734905829886,
+   "last_it": 64000
+  }
+ }
+}

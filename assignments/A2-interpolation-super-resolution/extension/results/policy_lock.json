@@ -1,0 +1,12 @@
+{
+ "locked_at": "2026-09-15 22:05:42",
+ "purpose": "Selection policy and scoring code fixed before any external image (assignment, fresh, DIV2K-20, Urban100-c) is scored for the new pipelines. External scoring of finished pipelines starts now, while SwinIR-M P1 4x/2x still train; roles are computed later from validation + latency only, by this unchanged code.",
+ "sha256": {
+  "select_roles.py": "839e1f17f5a5211c6d96ad40dac83f49d46957a77432d0f591daf250dfcceb5a",
+  "final_eval.py": "95c533f351830b9bde17768e653b1924a383c28d5f62740bf0a96a75dbfbd29b",
+  "bench_final_latency.py": "e106c395b2f688f0d7ab996e8c45ffe5939a69e3d4e447556838b0020decdfef",
+  "run_final_scales.py": "e73997c924552aa2c814e588e657f3f0f36e5ca9366abe61c7a50c2d91d47aa4",
+  "run_swinir_p1.py": "aa7c4bfbffea659a7a4fc38fb99df4e03d2dc4c695880fe24117727460c78113",
+  "decide_pool.py": "54bdf97b5c6ff30b3d03223ca38b068de3814a5cfe95bb7cfe2e0e870b486847"
+ }
+}

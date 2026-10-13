@@ -1,0 +1,121 @@
+{
+ "method": "x_hat = B y + P F(y); F = DirectLR(scale, width 96, depth 12) with bicubic skip; exact P1 projection; clip [0,255]",
+ "input_normalisation": "y/255 float32; output *255",
+ "degradation": "P1_gauss_rec (sigma=1 per x2 stage, half-pixel lattice, symmetric borders)",
+ "selection": "validation images 4.2.01, 7.1.05, boat.512, 5.2.09 only; roles by select_roles.py (frozen before external scoring)",
+ "environment": "conda eda311, torch MPS, Apple M2 Pro",
+ "reproduce_training": "python method_development/run_final_scales.py --scale S --pool POOL --seeds SEED",
+ "models": {
+  "2": {
+   "psnr": {
+    "method_id": "ours:fs_x2_bsd_s20260915_psnr+proj",
+    "weights": "weights/fs_x2_bsd_s20260915_psnr.pt",
+    "sha256": "dee2199f8eea88a385cbbb50a8058627f8007ca23958585c015acb4984ead71f",
+    "projection": true,
+    "training_pool": "bsd",
+    "seed": 20260915,
+    "selection": "best val psnr",
+    "params": 917860,
+    "train_updates": 64000,
+    "best_val_psnr_it": 47500,
+    "best_val_ssim_it": 59500,
+    "n_pool_images": 345,
+    "n_units": 178
+   },
+   "ssim": {
+    "method_id": "ours:fs_x2_bsd_s20260915_ssim+proj",
+    "weights": "weights/fs_x2_bsd_s20260915_ssim.pt",
+    "sha256": "0f4957af348ee0a3290b86adfd81e4843f6edf3acc05d8d8c7b39b3315fc8093",
+    "projection": true,
+    "training_pool": "bsd",
+    "seed": 20260915,
+    "selection": "best val ssim",
+    "params": 917860,
+    "train_updates": 64000,
+    "best_val_psnr_it": 47500,
+    "best_val_ssim_it": 59500,
+    "n_pool_images": 345,
+    "n_units": 178
+   }
+  },
+  "4": {
+   "psnr": {
+    "method_id": "ours:fs_x4_bsd_s20260915_psnr+proj",
+    "weights": "weights/fs_x4_bsd_s20260915_psnr.pt",
+    "sha256": "c9f1d8670a16c37776ce0fd2adaa6b200396f5c6dbdf33c12ecf95d833e11196",
+    "projection": true,
+    "training_pool": "bsd",
+    "seed": 20260915,
+    "selection": "best val psnr",
+    "params": 928240,
+    "train_updates": 64000,
+    "best_val_psnr_it": 47500,
+    "best_val_ssim_it": 56500,
+    "n_pool_images": 345,
+    "n_units": 178
+   },
+   "ssim": {
+    "method_id": "ours:fs_x4_bsd_s20260915_ssim+proj",
+    "weights": "weights/fs_x4_bsd_s20260915_ssim.pt",
+    "sha256": "19ee5135a2ac5f7cfaa9e087aa694979b4e54f465894b644585d58571c074b2e",
+    "projection": true,
+    "training_pool": "bsd",
+    "seed": 20260915,
+    "selection": "best val ssim",
+    "params": 928240,
+    "train_updates": 64000,
+    "best_val_psnr_it": 47500,
+    "best_val_ssim_it": 56500,
+    "n_pool_images": 345,
+    "n_units": 178
+   }
+  },
+  "8": {
+   "promoted": {
+    "method_id": "ours:fs_x8_bsd_s7_psnr",
+    "weights": "weights/fs_x8_bsd_s7_psnr.pt",
+    "sha256": "4ff5ebf99ffbee26593d2281b8dfdffdac19dae802022b9d7a0fad7623e15d7d",
+    "projection": false,
+    "training_pool": "bsd",
+    "seed": 7,
+    "selection": "best val psnr",
+    "params": 969760,
+    "train_updates": 64000,
+    "best_val_psnr_it": 44000,
+    "best_val_ssim_it": 48500,
+    "n_pool_images": 345,
+    "n_units": 178
+   },
+   "psnr": {
+    "method_id": "ours:fs_x8_bsd_s7_psnr+proj",
+    "weights": "weights/fs_x8_bsd_s7_psnr.pt",
+    "sha256": "4ff5ebf99ffbee26593d2281b8dfdffdac19dae802022b9d7a0fad7623e15d7d",
+    "projection": true,
+    "training_pool": "bsd",
+    "seed": 7,
+    "selection": "best val psnr",
+    "params": 969760,
+    "train_updates": 64000,
+    "best_val_psnr_it": 44000,
+    "best_val_ssim_it": 48500,
+    "n_pool_images": 345,
+    "n_units": 178
+   },
+   "ssim": {
+    "method_id": "ours:fs_x8_bsd_s7_ssim+proj",
+    "weights": "weights/fs_x8_bsd_s7_ssim.pt",
+    "sha256": "ede339b468d6d0f8217258b39a2e3de3543699f72f61c87506288c4528146f43",
+    "projection": true,
+    "training_pool": "bsd",
+    "seed": 7,
+    "selection": "best val ssim",
+    "params": 969760,
+    "train_updates": 64000,
+    "best_val_psnr_it": 44000,
+    "best_val_ssim_it": 48500,
+    "n_pool_images": 345,
+    "n_units": 178
+   }
+  }
+ }
+}
