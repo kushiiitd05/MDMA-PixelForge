@@ -1,0 +1,23 @@
+{
+  "10": {
+    "guide_sigma": 1.5,
+    "grad_threshold": 30.0,
+    "ltp_ratio": 1.0,
+    "sigma_t": 0.25,
+    "score": 0.9087599347210625
+  },
+  "25": {
+    "guide_sigma": 1.5,
+    "grad_threshold": 6.0,
+    "ltp_ratio": 1.0,
+    "sigma_t": 0.6,
+    "score": 0.6727033702125578
+  },
+  "50": {
+    "guide_sigma": 1.5,
+    "grad_threshold": 30.0,
+    "ltp_ratio": 1.0,
+    "sigma_t": 0.6,
+    "score": 0.5504184687079483
+  }
+}

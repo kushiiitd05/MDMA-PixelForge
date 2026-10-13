@@ -1,0 +1,72 @@
+{
+  "10": {
+    "best_params": {
+      "K": 9,
+      "rerank_dim": 16,
+      "retrieval_dim": 2,
+      "bag_size": 128,
+      "spatial_weight": 15.836439466220341,
+      "percentile_clip": 11.526676218135556,
+      "h": 13.150723587546478,
+      "sigma_patch": 4.043532161757352,
+      "sigma_patch_used": 4.043532161757352
+    },
+    "tune_SSIM": 0.9465413525864758,
+    "eval_SSIM_mean": 0.9453812662148645,
+    "eval_SSIM_by_image": {
+      "img_007": 0.9668847748955166,
+      "img_039": 0.9774491045623016,
+      "img_003": 0.9554400763078198,
+      "img_025": 0.8817511090938202
+    },
+    "bf_exact_eval_SSIM_mean": 0.8830215677416746,
+    "n_trials": 30
+  },
+  "25": {
+    "best_params": {
+      "K": 9,
+      "rerank_dim": 6,
+      "retrieval_dim": 6,
+      "bag_size": 128,
+      "spatial_weight": 30.539256312309707,
+      "percentile_clip": 23.95561725599826,
+      "h": 28.261882832842844,
+      "sigma_patch": 3.23961706914435,
+      "sigma_patch_used": 3.23961706914435
+    },
+    "tune_SSIM": 0.8238072016566003,
+    "eval_SSIM_mean": 0.8293438892925667,
+    "eval_SSIM_by_image": {
+      "img_007": 0.8667609903463847,
+      "img_039": 0.8598505930233725,
+      "img_003": 0.8465925968624801,
+      "img_025": 0.7441713769380298
+    },
+    "bf_exact_eval_SSIM_mean": 0.6652343009208228,
+    "n_trials": 30
+  },
+  "50": {
+    "best_params": {
+      "K": 9,
+      "rerank_dim": 16,
+      "retrieval_dim": 4,
+      "bag_size": 128,
+      "spatial_weight": 24.766694350999515,
+      "percentile_clip": 5.03202943490865,
+      "h": 77.63041104465913,
+      "sigma_patch": 0.0,
+      "sigma_patch_used": 0.0
+    },
+    "tune_SSIM": null,
+    "eval_SSIM_mean": 0.6586070132676218,
+    "eval_SSIM_by_image": {
+      "img_007": 0.8045103738902377,
+      "img_039": 0.5346978851132249,
+      "img_003": 0.7384068404337305,
+      "img_025": 0.5568129536332939
+    },
+    "bf_exact_eval_SSIM_mean": 0.5304382682315287,
+    "n_trials": 30,
+    "note": "Restored from the prior 7-dim (no sigma_patch) Optuna run: the 8-dim run's own 30-trial search at noise=50 regressed to 0.588 (vs this 0.659), almost certainly search-budget dilution from adding sigma_patch as an 8th dimension, not evidence sigma_patch hurts at high noise -- that remains untested with adequate budget."
+  }
+}

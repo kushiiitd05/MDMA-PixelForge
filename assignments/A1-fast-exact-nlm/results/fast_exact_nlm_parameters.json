@@ -1,0 +1,17 @@
+{
+  "10": {
+    "h_ratio": 0.6,
+    "h": 6.0,
+    "source": "precommitted before best-four confirmation"
+  },
+  "25": {
+    "h_ratio": 0.6,
+    "h": 15.0,
+    "source": "precommitted before best-four confirmation"
+  },
+  "50": {
+    "h_ratio": 0.6,
+    "h": 30.0,
+    "source": "precommitted before best-four confirmation"
+  }
+}

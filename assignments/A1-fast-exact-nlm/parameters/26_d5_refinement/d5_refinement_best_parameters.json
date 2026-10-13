@@ -1,0 +1,26 @@
+{
+  "10": {
+    "name": "noise_floor_0.05",
+    "h_mult": 1.0,
+    "noise_alpha": 0.05,
+    "h_mode": "none",
+    "h_strength": 0.0,
+    "tune_SSIM": 0.946552863169849
+  },
+  "25": {
+    "name": "h_signal_low_0.25",
+    "h_mult": 1.0,
+    "noise_alpha": 0.0,
+    "h_mode": "signal_low",
+    "h_strength": 0.25,
+    "tune_SSIM": 0.8253143778710544
+  },
+  "50": {
+    "name": "D5_base_recomputed",
+    "h_mult": 1.0,
+    "noise_alpha": 0.0,
+    "h_mode": "none",
+    "h_strength": 0.0,
+    "tune_SSIM": 0.6587883246435334
+  }
+}

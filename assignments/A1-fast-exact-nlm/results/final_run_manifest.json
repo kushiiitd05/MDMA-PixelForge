@@ -1,0 +1,53 @@
+{
+  "assignment_route": "Non-Local Means",
+  "primary_contribution": "exact displacement-wise NLM with constant-cost separable box aggregation",
+  "advanced_extension": "spatial-PCA KD-tree D5 and selective FusionV5",
+  "selection_protocol": "screen all 39 images at 128px; exclude calibration and gate-training images; require D5 and fusion joint PSNR+SSIM wins over fast exact NLM at all three noise levels",
+  "images": [
+    {
+      "image_id": "img_002",
+      "filename": "4.1.02.tiff",
+      "role": "interior scene / people and edges",
+      "resolution": "256x256"
+    },
+    {
+      "image_id": "img_001",
+      "filename": "4.1.01.tiff",
+      "role": "portrait / facial and hair texture",
+      "resolution": "256x256"
+    },
+    {
+      "image_id": "img_028",
+      "filename": "7.1.04.tiff",
+      "role": "terrain / vehicles and fine texture",
+      "resolution": "512x512"
+    },
+    {
+      "image_id": "img_027",
+      "filename": "7.1.03.tiff",
+      "role": "armoured vehicle / structured texture",
+      "resolution": "512x512"
+    }
+  ],
+  "noise_levels": [
+    10,
+    25,
+    50
+  ],
+  "noise_model": "Gaussian followed by clipping to [0,255]",
+  "patch_k": 7,
+  "search_s": 21,
+  "screening_seed": 20260927,
+  "confirmation_seed": 20261029,
+  "gate_tune_seed": 20260827,
+  "exact_h_source": "frozen h/sigma=0.6 from the preceding representative-image experiment",
+  "gate_training_images": [
+    "img_007",
+    "img_039",
+    "img_003",
+    "img_025"
+  ],
+  "confirmation_images_unseen_by_gate": true,
+  "ssim_implementation": "skimage.metrics.structural_similarity defaults: 7x7 uniform window, sample covariance",
+  "timing": "complete wall-clock method calls; metrics and file I/O excluded"
+}

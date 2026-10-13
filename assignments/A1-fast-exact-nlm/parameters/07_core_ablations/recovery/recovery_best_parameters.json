@@ -1,0 +1,123 @@
+{
+  "protocol": {
+    "side": 128,
+    "seed": 20260827,
+    "noise_levels": [
+      10,
+      25,
+      50
+    ],
+    "trials_per_method_noise": 24,
+    "objective": "mean SSIM across four image roles"
+  },
+  "best": {
+    "BF_exact": {
+      "10": {
+        "sigma_s": 1.7,
+        "sigma_r": 22.5,
+        "k": 13
+      },
+      "25": {
+        "sigma_s": 1.5,
+        "sigma_r": 100.0,
+        "k": 11
+      },
+      "50": {
+        "sigma_s": 2.1,
+        "sigma_r": 200.0,
+        "k": 15
+      }
+    },
+    "BF_skimage": {
+      "10": {
+        "sigma_s": 1.5,
+        "sigma_r": 17.5,
+        "k": 11
+      },
+      "25": {
+        "sigma_s": 1.5,
+        "sigma_r": 56.25,
+        "k": 11
+      },
+      "50": {
+        "sigma_s": 2.1,
+        "sigma_r": 175.0,
+        "k": 15
+      }
+    },
+    "JBF_gaussian_guide": {
+      "10": {
+        "sigma_s": 1.9000000000000001,
+        "guide_sigma": 0.7,
+        "sigma_r": 7.5,
+        "k": 13
+      },
+      "25": {
+        "sigma_s": 1.7,
+        "guide_sigma": 0.5,
+        "sigma_r": 75.0,
+        "k": 13
+      },
+      "50": {
+        "sigma_s": 2.1,
+        "guide_sigma": 0.9000000000000001,
+        "sigma_r": 75.0,
+        "k": 15
+      }
+    }
+  },
+  "noise_aware_gate": {
+    "10": {
+      "signal_std_threshold": 6.0,
+      "score": 0.9018586419819905
+    },
+    "25": {
+      "signal_std_threshold": 9.0,
+      "score": 0.6749702177676908
+    },
+    "50": {
+      "signal_std_threshold": 26.0,
+      "score": 0.5587354460892703
+    }
+  },
+  "noise_edge_gate": {
+    "10": {
+      "signal_std_threshold": 6.0,
+      "edge_guide_sigma": 1.5,
+      "gradient_threshold": 12.0,
+      "score": 0.9015709180634963
+    },
+    "25": {
+      "signal_std_threshold": 6.0,
+      "edge_guide_sigma": 1.1,
+      "gradient_threshold": 24.0,
+      "score": 0.6704449668610216
+    },
+    "50": {
+      "signal_std_threshold": 27.0,
+      "edge_guide_sigma": 0.7,
+      "gradient_threshold": 2.0,
+      "score": 0.5388907916527519
+    }
+  },
+  "joint_edge_hybrid": {
+    "10": {
+      "edge_guide_sigma": 1.7,
+      "gradient_threshold": 30.0,
+      "edge_dilation": 1,
+      "score": 0.9098983607221134
+    },
+    "25": {
+      "edge_guide_sigma": 0.8999999999999999,
+      "gradient_threshold": 10.0,
+      "edge_dilation": 2,
+      "score": 0.6712641647942534
+    },
+    "50": {
+      "edge_guide_sigma": 1.7,
+      "gradient_threshold": 30.0,
+      "edge_dilation": 0,
+      "score": 0.5508972666521128
+    }
+  }
+}
